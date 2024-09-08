@@ -1,0 +1,36 @@
+This C++ program implements a simple task management system. Here's a brief explanation of its structure and functionality:
+
+1. We define a `Task` class to represent individual tasks, with a description and a completion status.
+
+2. The `TaskManager` class manages a collection of tasks and provides methods to add, view, mark as completed, and remove tasks.
+
+3. The `main()` function provides a command-line interface for interacting with the task manager.
+
+4. Users can choose from five options:
+   - Add a new task
+   - View all tasks
+   - Mark a task as completed
+   - Remove a task
+   - Exit the program
+
+5. The program uses a `while` loop to keep running until the user chooses to exit.
+
+To use this program:
+
+1. Save the code in a file with a `.cpp` extension (e.g., `task_manager.cpp`).
+2. Compile the code using a C++ compiler. For example, with g++:
+   ```
+   g++ -std=c++11 task_manager.cpp -o task_manager
+   ```
+3. Run the compiled program:
+   ```
+   ./task_manager
+   ```
+4. Follow the on-screen prompts to manage your tasks.
+
+This program demonstrates several C++ features, including:
+- Classes and object-oriented programming
+- STL containers (`std::vector`)
+- Input/output streams
+- Control structures (switch statements, loops)
+- Basic error handling
